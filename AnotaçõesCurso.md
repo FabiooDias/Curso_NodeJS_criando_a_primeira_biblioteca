@@ -110,3 +110,7 @@ export { multiplica, soma };
 const soma = operacoes.soma(1, 2);
 const multiplica = operacoes.multiplica(1, 2);
 ```
+### Promises(Promessas)
+ 1. JavaScript é uma linguagem sincrona, as ***Promises*** irão fazer sentido no momento é que precisaremos executar uma função, mas que ela execute sem ter que fazer o resto de todo o processo parar, por conta do que ela deve executar, ou seja, irá executar no tempo dela tratando os dados que ela precisa tratar, em contra partida o resto do código continuara sendo executado, sua maior caracteristica é a promessa de resposta, tanto a positiva quanto a negativa de erro se caso houver. Essa tratativa são através do:
+ 1. ***.then(então)*** -> este trata caso der certo a promessa da função
+ 2. ***.catch(pegar)*** -> este trata caso der errado a promessa da função
