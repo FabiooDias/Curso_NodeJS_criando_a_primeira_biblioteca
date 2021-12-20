@@ -1,0 +1,41 @@
+{
+  "name": "file-extract-links",
+  "version": "1.0.0",
+  "description": "Esta Lib tem a função de estrair links com um determinado formato padrão através de expressões regulares, de um arquivo de texto e/ou arquivos do tipo .md",
+  "keywords": "Expressões regulares, URL, leitura de arquivos.",
+  "homepage": "https://github.com/FabiooDias/Curso_NodeJS_criando_a_primeira_biblioteca/",
+  "bugs": {
+    "url" : "https://github.com/FabiooDias/Curso_NodeJS_criando_a_primeira_biblioteca/issues",
+    "email" : "fabiodiaspinheiro7@gmail.com"
+  },
+  "license": "ISC",
+  "author": "Fabio Dias",
+  "main": "./cli.js",
+  "bin": {
+    "file-extract-links": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabiooDias/Curso_NodeJS_criando_a_primeira_biblioteca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabiooDias/Curso_NodeJS_criando_a_primeira_biblioteca/issues"
+  },
+  "homepage": "https://github.com/FabiooDias/Curso_NodeJS_criando_a_primeira_biblioteca#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
